@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     subgraph ONLINE_BOUNDARY [Online Serving Boundary - Latency Sensitive]
         A[Client App / Payment Gateway] -->|1. POST /score request| B(API Gateway)
